@@ -1,0 +1,608 @@
+body , html, h1,h2,h3,h4,h5,h6,p,a {
+
+  font-family: 'Poppins', sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+
+  color: #2F281E;
+}
+
+p {
+
+  color: #9c9c9c;
+}
+
+
+
+
+/* For all */
+.btn-primary, .btn-primary:active {
+
+  background-color: #FF9900;
+  border: 1px solid #FF9900;
+  padding: 10px 28px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+
+  background-color: white !important;
+  color: #FF9900 !important;
+  border: 1px solid #ff9900 !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+
+}
+
+
+
+/* Navbar-section */
+
+
+section.navbar-section .navbar {
+
+  padding: 30px 0;
+}
+
+
+section.navbar-section li a.nav-link {
+
+  font-weight: 500;
+  font-size: 1em;
+}
+
+section.navbar-section li a.nav-link:hover {
+
+  color: #FF9900 !important;
+}
+
+.navbar-nav li.nav-item {
+
+  margin-right: 15px;
+}
+
+
+section.navbar-section .button-container-xs {
+
+  display: none;
+}
+section.navbar-section .button-container {
+
+  margin-left: 20px;
+
+}
+
+
+section.navbar-section .button-container a.btn-primary {
+
+  padding: 8px 20px;
+  box-shadow: none;
+}
+
+section.navbar-section .button-container a.btn-border {
+
+  border: 1px solid #BCD0E5;
+  padding: 8px 20px;
+  font-weight: 600;
+  color: #173A56;
+} 
+
+section.navbar-section .button-container a.btn-border:hover {
+
+  background-color: #BCD0E5;
+  border: 1px solid #BCD0E5;
+  color: white;
+}
+
+
+
+
+/* Jumbotron section */
+
+section.hero-section {
+
+  margin: 60px 0;
+}
+
+.left-side h1 {
+
+  font-weight: 700;
+
+}
+
+.left-side p {
+  
+  color: #544837;
+}
+
+.left-side i.fas {
+
+  color: #FF9900;
+  margin-right: 10px;
+
+}
+
+
+.btn-nocolor {
+
+  color: #FF9900;
+  font-size: 1em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+a.btn-nocolor:hover{
+  box-shadow: none !important;
+  color: #d88200;
+}
+
+.pembungkus-button {
+
+  display: flex;
+
+}
+
+
+
+section.icon-section {
+  margin: 75px 0;
+}
+
+
+.icon-section .title-text {
+
+  padding: 0 25%;
+}
+.icon-section .title-text h2 {
+
+  font-size: 36px;
+  font-weight: 600;
+  
+}
+
+.card-container {
+
+  margin: 55px 0;
+}
+
+.card-container .icon {
+
+ 
+  width: 30%;
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  box-shadow: rgb(17 12 46 / 20%) 0px 20px 100px 0px;
+  
+}
+
+.card-container .card {
+  border: none;
+}
+
+.icon i.fas {
+
+  color: white;
+  font-size: 20px;
+}
+.icon1 {
+
+  background-color: #7752BE;
+
+}
+.icon2 {
+
+  background-color: #FAB005;
+
+}
+.icon3 {
+
+  background-color: #F03E3D;
+
+}
+.icon4 {
+
+  background-color: #4DADF7;
+
+}
+
+
+.icon-section .card-body h5 {
+ 
+  margin: 30px 0 13px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.icon-section .card-body p {
+
+  color: #9c9c9c;
+}
+
+
+
+
+
+
+/* Design-section */
+
+section.design-section {
+
+  margin: 120px 0 100px;
+}
+
+
+.title-container p {
+
+  margin: 0;
+}
+
+.title-container h3 {
+
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0 0 22px;
+
+}
+
+section.design-section p {
+
+  font-size: 16px;
+  margin: 0 0 30px;
+  line-height: 26px;
+}
+
+section.design-section .title-container p {
+
+  margin: 0;
+}
+
+.subtitle-container h4 {
+
+  font-weight: 700;
+  font-size: 16px;
+  
+}
+
+
+
+/* Product-section */
+
+section.product-section {
+    margin: 0 0 120px;
+}
+
+section.product-section p {
+
+  font-size: 16px;
+  margin: 0;
+  line-height: 26px;
+}
+
+.checklist-container {
+
+  margin-top: 20px;
+
+}
+
+.desc-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+  padding: 0 18% 0 0;
+}
+
+.desc-container .icon-check {
+  background-color: #FF9900;
+  padding: 12px 15px;
+  height: 10%;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.desc-container .icon-check i.fas {
+  color: white;
+  font-size: 16px;
+}
+
+/* blog-section */
+
+
+section.blog-section {
+
+  margin: 50px 0;
+}
+
+
+section.blog-section .card{
+
+  border: none;
+  
+}
+
+section.blog-section .card .card-body {
+
+  padding: 1.25rem 1.25rem 1.25rem 0;
+}
+
+.blog-section .card .card-body a h5.card-title {
+
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.blog-section .card .card-body a:hover {
+
+  text-decoration: none;
+}
+
+.blog-section .card .card-body a h5.card-title:hover {
+
+  color: #FF9900;
+ 
+
+}
+
+.blog-section .card .card-body p span {
+
+  font-weight: 700;
+
+}
+
+
+.blog-section .title-container h3 {
+
+    margin: 0;
+    font-weight: 700;
+}
+
+
+.blog-section .title-container p {
+  margin: 5px 0 30px;
+}
+
+
+.blog-section .card .card-body p.card-text {
+
+  color: #9c9c9c;
+}
+
+
+/* footer-section */
+
+section.footer-section {
+
+  
+  margin: 120px 0 0;
+  background-color: #f7f7f7;
+  padding: 60px 0 10px;
+  width: 100%;
+}
+
+section.footer-section .container {
+  padding-top: 30px;
+}
+
+.footer-section h2.footer-title {
+
+   font-size: 1.5rem;
+   color: #2F281E;
+   margin-bottom: 1.5rem;
+   font-weight: 700;
+}
+
+.footer-section ul {
+  padding: 0;
+}
+
+.footer-section ul li {
+
+  list-style: none;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.footer-section ul li a{
+  text-decoration: none;
+  color: #c7c7c7;
+  font-weight: 500;
+}
+
+.footer-section ul li a:hover {
+
+  color: #FF9900;
+}
+
+.sosmed-container {
+  margin-bottom: 15px;
+}
+.terms-container {
+  margin-bottom: 10px;
+}
+.terms-container a {
+  color: #9c9c9c;
+}
+
+.terms-container a:hover {
+  color: #ff9900;
+}
+
+
+
+
+@media (max-width: 552px){
+
+  /* for all */
+
+  .text-xs-center {
+
+    text-align: center;
+  }
+  
+  .order-xs-1 {
+    
+    order: 1;
+  
+  }
+  
+  .order-xs-2 {
+    
+    order: 2;
+  
+  }
+
+  /* navbar-section */
+
+  section.navbar-section .bg-navbar {
+
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1px solid#e4e4e4;
+  }
+
+  section.navbar-section .button-container-xs {
+    margin: 22px 0;
+    display: flex;
+    justify-content: center;
+  }
+  section.navbar-section .button-container-xs a {
+    margin: 0 5px;
+  }
+
+  section.navbar-section .button-container-xs a.btn-primary {
+
+    padding: 8px 20px;
+    box-shadow: none;
+  }
+  
+  section.navbar-section .button-container-xs a.btn-border {
+  
+    border: 1px solid #BCD0E5;
+    padding: 8px 20px;
+    font-weight: 600;
+    color: #173A56;
+  } 
+
+  section.navbar-section .button-container-xs a.btn-border:hover{
+    background-color: #BCD0E5;
+    color: white;
+  }
+
+  section.navbar-section .button-container {
+
+    display: none;
+  
+  }
+
+  section.navbar-section .navbar {
+  
+    padding: 30px;
+
+  }
+
+/* Hero section */
+section.hero-section img, section.design-section img, section.product-section img {
+  width: 100%;
+}
+
+  .left-side {
+    text-align: center;
+  }
+
+  .pembungkus-button {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+/* icon-section */
+
+.icon-section .title-text {
+
+  padding: 0 10%;
+}
+
+.icon-section .card-body {
+
+  text-align: center;
+}
+
+.card-container .icon {
+
+  margin: 0 auto;
+  padding: 25px;
+  width: 25%;
+}
+
+
+/* Product-section */
+.desc-container {
+
+  padding: 0;
+}
+
+
+/* marketing-section */
+
+
+
+/* Blog-section */
+
+    .blog-section .title-container {
+      text-align: center;
+    }
+    section.blog-section .card {
+
+      margin-bottom: 25px;
+    }
+
+    /* footer-section */
+    .footer-section .logo {
+      margin-bottom: 30px;
+    }
+
+    .footer-section img.logo {
+      width: 40%;
+    }
+
+    section.footer-section .container {
+      padding: 30px;
+    }
+
+
+    .sosmed-container {
+      margin-bottom: 15px;
+    }
+    .terms-container {
+      margin-bottom: 10px;
+    }
+    .terms-container a {
+      color: #9c9c9c;
+    }
+
+    .terms-container a:hover {
+      color: #ff9900;
+    }
+}
+
+
+
+@media (max-width: 768px){}
+
+@media (max-width: 992px){}
+
+@media (max-width: 1024px){}
+
+@media (min-width: 1025px){}

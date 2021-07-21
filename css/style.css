@@ -599,7 +599,59 @@ section.hero-section img, section.design-section img, section.product-section im
 
 
 
-@media (max-width: 768px){}
+@media (max-width: 768px){
+
+  /* Navbar-section  */
+  section.navbar-section .button-container {
+
+     display: none;
+  }
+
+  section.navbar-section .button-container-xs {
+    display: none;
+  }
+
+  .navbar-collapse {
+
+    padding: 20px 30px;
+    border: 1px solid rgb(202, 202, 202);
+    margin: 20px;
+    border-radius: 10px;
+  }
+
+  /* jumbotron-section */
+
+  .left-side {
+    margin-bottom: 30px;
+  }
+
+  /* icon-section */
+
+
+  .icon-section .title-text {
+    padding: 0 10%;
+  }
+
+  .card-container .icon {
+
+    margin: 0 auto;
+  }
+
+
+  /* design-section */
+
+  /* blog-section */
+
+  .blog-section .title-container {
+    margin: 20px 30px;
+  }
+
+  section.blog-section .card {
+
+    margin: 20px 30px;
+  }
+
+}
 
 @media (max-width: 992px){}
 

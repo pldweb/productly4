@@ -560,15 +560,20 @@ section.hero-section img, section.design-section img, section.product-section im
 
 /* Blog-section */
 
+
     .blog-section .title-container {
       text-align: center;
     }
     section.blog-section .card {
-
-      margin-bottom: 25px;
+      margin: 20px 10px !important;
     }
 
     /* footer-section */
+
+    .footer-content {
+      margin-bottom: 30px;
+    }
+
     .footer-section .logo {
       margin-bottom: 30px;
     }
@@ -625,6 +630,11 @@ section.hero-section img, section.design-section img, section.product-section im
     margin-bottom: 30px;
   }
 
+  .hero-section .pembungkus-button {
+    display: flex;
+    justify-content: center;
+  }
+
   /* icon-section */
 
 
@@ -635,6 +645,7 @@ section.hero-section img, section.design-section img, section.product-section im
   .card-container .icon {
 
     margin: 0 auto;
+    width: 28% !important;
   }
 
 
@@ -655,6 +666,24 @@ section.hero-section img, section.design-section img, section.product-section im
 
 @media (max-width: 992px){}
 
-@media (max-width: 1024px){}
+@media (max-width: 1024px){
+
+  /* hero-section */
+  section.hero-section img, section.design-section img, section.product-section img {
+    max-width: 95%;
+  }
+
+  .hero-section .pembungkus-button {
+    display: flex;
+    justify-content: center;
+  }
+ 
+
+  /* icon-section */
+  .card-container .icon {
+    width: 35%;
+  }
+
+}
 
 @media (min-width: 1025px){}
